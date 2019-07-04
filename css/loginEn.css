@@ -1,0 +1,90 @@
+.layui-tab-card {
+    border-radius: 4px;
+    border: 5px solid #ccc;
+    width: 480px;
+    height: 340px;
+    margin: 50px auto;
+}
+
+.layui-tab-card .layui-tab-title{
+    text-align: center;
+    background: none;
+}
+
+.layui-tab-card .layui-tab-title li {
+    color: #555;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.layui-tab-content {
+    padding: 3% 12%;
+}
+
+.layui-form-item label {
+    color: #666;
+    font-weight: bold;
+}
+
+.layui-form-item label .layui-icon {
+    margin-right: 4px;
+}
+
+.layui-form-item input {
+    padding: 5% 3%;
+    border-radius: 8px;
+}
+
+.layui-row .layui-input-inline {
+    width: 67%;
+}
+
+.layui-row .layui-btn {
+    width: 30%;
+    display: block;
+    padding: 0;
+    border-radius: 5px;
+    background-color: #022d69;
+}
+
+.inline-btn {
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+.inline-btn .layui-btn {
+    background-color: #022d69;
+    margin-left: 25%;
+    display: inline-block;
+}
+
+.inline-btn a {
+    margin-left: 34%;
+    display: inline-block;
+}
+
+.inline-btn a img {
+    vertical-align: middle;
+}
+
+.inline-btn a span {
+    color: #555;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.inline-btn .layui-btn {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.tips {
+    color: #c20000;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,82 @@
+body,html {
+    background: #eee;
+}
+
+.search,.search-list {
+    background: #fff;
+    padding: 2% 5%;
+    margin-bottom: 1%;
+    overflow: hidden;
+}
+
+
+/* -------------
+    search  
+-------------*/
+.search {
+    overflow: hidden;
+}
+
+.category {
+    height: 0;
+    padding-top: 1%;   
+}
+
+.category .choice-btn {
+    padding: 5% 7%;
+    cursor: pointer;
+}
+
+.btn-color {
+    color: #fff;
+}
+
+.btn-bg {
+    background: url(../img/btn.png) no-repeat center center;
+    background-size: 100%;
+}
+
+.search .layui-input {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.search .layui-btn {
+    background: #012e67;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.language>div {
+    width: 30px;
+    float: right;
+    cursor: pointer;
+}
+
+.language>div span {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* -----------------
+    search-list  
+----------------*/
+.detail {
+    color: #fff;
+    display: inline-block;
+    padding: .5% 1%;
+    font-size: 14px;
+    border-radius: 5px;
+    background: #012e67;
+    cursor: pointer
+}
+
+
+/* -----------------
+    pagination  
+----------------*/
+#pages {
+    text-align: right;
+}

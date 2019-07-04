@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>展商预览</title>
+
+    <link rel="stylesheet" href="../layui/css/layui.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/exhibitorInfo.css">
+</head>
+
+<body>
+    <!-- ==========
+        banner
+    =========  -->
+    <div class="banner">
+        <img src="http://reg.diecastexpo.cn/upload/20180108150719.jpg" alt="">
+    </div>
+
+
+    <div class="layui-container">
+        <!-- ===========
+             search
+        ==========  -->
+        <div class="search layui-row">
+            <div class="category layui-col-lg4">
+                <span style="font-weight: bold">展会类别：</span>
+                <span class="choice-btn btn-bg btn-color">压铸展</span>
+                <span class="choice-btn">有色展</span>
+            </div>
+            <div class="search-bar layui-col-lg7">
+                <input type="text" autocomplete="off" placeholder="请输入您感兴趣的关键字内容" class="layui-input">
+                <button style="position: absolute;top: 0;right: 0;
+                cursor: pointer;" type="button" class="layui-btn">
+                    <i class="layui-icon layui-icon-search"
+                       style="font-size: 22px"></i>
+                </button>
+            </div>
+            <div class="language layui-col-lg1">
+                <div>
+                    <img src="../img/EN.png" alt="">
+                    <span>EN</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- =============
+            search-list
+        ============  -->
+        <div class="search-list">
+            <p><i class="layui-icon layui-icon-search"></i> 搜索结果</p>
+
+            <!-- 容器 -->
+            <div id="listCard"></div>
+
+            <!-- temp -->
+            <div id="tempCard" style="display: none"></div>
+
+            <!-- pagination -->
+            <div id="pages"></div>
+        </div>
+
+
+    </div>
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../layui/layui.js"></script>
+    <script src="../js/list-card.js"></script>
+    <!-- <script src="../js/exhibitorInfo.js"></script> -->
+    <script src="../js/test.js"></script>
+</body>
+
+</html>

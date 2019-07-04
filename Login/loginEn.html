@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>英文登陆</title>
+
+    <link rel="stylesheet" href="../layui/css/layui.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/loginEn.css">
+</head>
+
+<body>
+    <!-- banner -->
+    <div class="banner">
+        <img src="http://reg.diecastexpo.cn/upload/20180108150719.jpg" alt="">
+    </div>
+
+    <!-- card -->
+    <div class="layui-container">
+        <div class="layui-tab layui-tab-card">
+            <ul class="layui-tab-title">
+                <li>Login</li>
+            </ul>
+            <div class="layui-tab-content">
+                <div class="layui-tab-item layui-show">
+                    <form class="layui-form" action="">
+                        <div class="layui-form-item">
+                            <label class="layui-form-label-col"><i class="layui-icon"><img src="../img/email.png"
+                                        alt=""></i>EMAIL</label>
+                            <input type="text" name="emailEn" lay-verify="emailEn" lay-verType="tips" placeholder="info@email.com"
+                                autocomplete="off" class="layui-input" id="emailEnInput">
+                        </div>
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label-col"><i
+                                    class="layui-icon layui-icon-vercode"></i>PASSWORD</label>
+                            <div class="layui-row">
+                                <input type="password" name="pswEn" lay-verify="pswEn" lay-verType="tips"
+                                    placeholder="Please enter your password" autocomplete="off"
+                                    class="layui-input layui-input-inline" id="pswEnInput">
+                                <button type="button" class="layui-btn">Get Password</button>
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item inline-btn">
+                            <button class="layui-btn" lay-submit lay-filter="*">Login</button>
+                            <a href="./login.html">
+                                <img src="../img/CN.png">
+                                <span>CN</span>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="tips">
+            Please use: IE10 +, Google (Chrome), Firefox (Mozilla Firefox)
+        </div>
+    </div>
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../layui/layui.js"></script>
+    <script src="../js/login.js"></script>
+
+</body>
+
+</html>
